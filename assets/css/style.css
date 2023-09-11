@@ -67,7 +67,6 @@ a {
 }
 
 /* ---------------------------Class Selectors----------------------------- */
-
 .h3-border {
 	border-bottom: solid 2px var(--textcolor);
 	margin: 0 0 25px 0;
@@ -195,4 +194,27 @@ a {
 #first-project {
 	width: 58.5%;
 	margin-top: 0;
+}
+
+@media only screen and (min-device-width: 280px) and (max-device-width: 1000px) {
+		p {
+			font: size 50px;
+			line-height: 1;
+		}
+		#description{
+			width: 45%;
+		}
+		#first-project{
+			width: 45%;
+			padding-top: 11rem;
+			
+		}
+		.div-imgs{
+			width: 40%;
+			height: 40%;
+		}
+		.vertical-img {
+	width: 31%;
+	height: 20%;
+}
 }
