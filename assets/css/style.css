@@ -171,8 +171,10 @@ a {
 .footer-nav-menu{
 	padding: 0 1rem 0 1rem;
 }
-.avatar-container{display: flex; justify-content: center;
-
+.avatar-container{
+	padding: 2rem 0 1rem 0;
+	display: flex; 
+	justify-content: center;
 }
 /* ---------------------------ID Selectors----------------------------- */
 
